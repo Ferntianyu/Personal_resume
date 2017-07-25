@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "paofu";
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: "paofu";
+    src: url(新蒂泡芙体.otf);
+}
+/*头部区域*/
+#head{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    border-bottom:1px solid #E92322;
+    background-color: rgba(0,0,0,0.3);
+    padding:10px 20px;
+    z-index: 1000;
+}
+.head-l{
+    display: inline-block;
+    cursor: pointer;
+    font-size:12px;
+}
+.head-l > img{
+    width: 45px;
+    height: 45px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right:10px;
+    border:1px solid #ccc;
+    vertical-align: sub;
+}
+.head-l img:hover{
+    box-shadow: 0 0 20px #E92322;
+}
+.head_title{
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+}
+.head-r{
+    float: right;
+    margin-right:20px;
+}
+.head-r li{
+    float: left;
+    margin-right:20px;
+    padding:3px 7px;
+    list-style: none;
+    transform: rotate(20deg);
+    transition: all 1s;;
+}
+.head-r li:hover{
+    transform: scale(1.2);
+    transform: rotate(-25deg);
+}
+.head-r li a{
+    color: #fff;
+    font-size:14px;
+}
+.head-r li a:hover{
+    color: #aaa;
+}
+
+/*滚屏背景*/
+#dowebok .section{
+    width: 100%;
+    background-size:cover;
+}
+.section1{
+    background: url("../img/01.jpg") no-repeat center center;
+}
+.section2 {
+    background: url("../img/02.jpg") no-repeat  center center;
+}
+.section3{
+    background: url("../img/03.jpg") no-repeat  center center;
+}
+.section4{
+    background: url("../img/04.jpg") no-repeat  center center;
+}
+.section5{
+    background: url("../img/05.jpg") no-repeat  center center;
+}
+.section6{
+    background: url("../img/06.jpg") no-repeat  center center;
+}
+/*首页*/
+.section1{
+    text-align: center;
+    color: #fff;
+}
