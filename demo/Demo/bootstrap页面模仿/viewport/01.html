@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .container{
+            height: 1000px;
+            background-color: #f40;
+            margin:0 auto;
+        }
+        .container{
+            width: 100%;
+        }
+        /*媒体查询，当使用min-width作为判断条件一定要从小到大，
+        max-width 从大到小
+        */
+        @media (min-width: 992px) {
+            /*当条件满足去执行*/
+            .container{
+                width: 970px;
+                background-color: gold;
+            }
+        }
+        @media (min-width: 1200px) {
+            /*当条件满足去执行*/
+            .container{
+                width: 1170px;
+                background-color: blue;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="container"></div>
+</body>
+</html>
